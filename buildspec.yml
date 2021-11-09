@@ -1,0 +1,17 @@
+version: 0.2
+
+env: 
+   
+   parameter-store:
+                Mongo_Url: "/kamal/mongo_url"
+
+phases:
+   build:
+       commands:
+           - sed -i "s/localhost/"$Mongo_Url"/" app.js  
+
+
+
+artifacts:
+        files: 
+            - " **/* "
