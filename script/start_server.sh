@@ -1,3 +1,3 @@
 #!/bin/sh
-pm2 start /home/ubuntu/node/app.js
+pm2 start /opt/codedeploy-agent/app.js
 echo "Server started..."
