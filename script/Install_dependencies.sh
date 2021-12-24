@@ -1,5 +1,4 @@
 #!/bin/bash
-cd /opt/codedeploy-agent/
 sudo apt update -y
 curl -fsSL https://deb.nodesource.com/setup_12.x | sudo -E bash -
 sudo apt-get install -y nodejs
