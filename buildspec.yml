@@ -20,7 +20,6 @@ phases:
       - sed -i "s/localhost/"$Mongo_Url"/" app.js 
       - echo Build started on `date`
       - echo Compiling the Node.js code
-      - npm run build
   post_build:
     commands:
       - echo Build completed on `date`
