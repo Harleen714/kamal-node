@@ -3,7 +3,7 @@ os: linux
 runas: root
 files:
     - source: / 
-      destination: /home/ubuntu/node-express-realworld-example-app
+      destination: /home/ubuntu/node
       timeout: 300
      
       
