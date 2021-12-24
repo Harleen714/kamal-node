@@ -1,5 +1,5 @@
 #!/bin/bash
-cd /home/ubuntu/node-express-realworld-example-app
+cd /home/ubuntu/node
 sudo apt update -y
 curl -fsSL https://deb.nodesource.com/setup_12.x | sudo -E bash -
 sudo apt-get install -y nodejs
