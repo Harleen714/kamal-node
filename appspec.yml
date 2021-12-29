@@ -18,10 +18,6 @@ hooks:
       timeout: 300
       runas: root
       
-  ApplicationStop:
-    - location: script/stop_service.sh
-      timeout: 300
-      runas: root
     
 
            
