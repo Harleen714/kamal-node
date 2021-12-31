@@ -1,3 +1,3 @@
 #!/bin/sh
-pm2 stop /opt/codedeploy-agent/app.js
+pm2 stop /home/ubuntu/kamal-node/app.js
 echo "Server Stopped..."
