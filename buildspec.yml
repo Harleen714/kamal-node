@@ -3,7 +3,7 @@ version: 0.2
 env: 
    
    parameter-store:
-                Mongo_Url: "/kamal/mongo_url"
+                Mongo_Url: "/harleen/mongo_url"
 
 phases:
   install:
