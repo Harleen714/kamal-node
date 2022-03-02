@@ -13,13 +13,14 @@ hooks:
     - location: script/Install_dependencies.sh
       timeout: 300
       runas: root
-  ApplicationStart:
-    - location: script/start_server.sh
+      
+  ApplicationStop:
+    - location: script/stop_sevice.sh
       timeout: 300
       runas: root
       
   ApplicationStart:
-    - location: script/stop_sevice.sh
+    - location: script/start_server.sh
       timeout: 300
       runas: root    
 
